@@ -72,15 +72,15 @@ class MemeExplorer extends React.Component {
           <HorizontalScroll>
             <div style={{ display: 'flex' }}>
               <div>
-                <img src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+                <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
               </div>
 
               <div>
-                <img src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+                <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
               </div>
 
               <div>
-                <img src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+                <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
               </div>
 
             </div>
@@ -94,7 +94,7 @@ class MemeExplorer extends React.Component {
             Коровка говорит "муууу", собачка говорит "гав-гав"
           </Header>
           <Div align="middle">
-            <img src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+            <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
 
             <InfoRow>
               Коровка говорит "муууу" - трехпанельный комикс с животными, на котором корова говорит "муууу", 
@@ -139,7 +139,7 @@ class MemeHot extends React.Component {
 
         <Group>
           <Div align="middle">
-            <img src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+            <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
 
             <InfoRow>
               Коровка говорит "муууу" - трехпанельный комикс с животными, на котором корова говорит "муууу", 
@@ -152,7 +152,7 @@ class MemeHot extends React.Component {
 
         <Group>
           <Div align="middle">
-            <img src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+            <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
 
             <InfoRow>
               Коровка говорит "муууу" - трехпанельный комикс с животными, на котором корова говорит "муууу", 
@@ -184,7 +184,7 @@ class MemePop extends React.Component {
 
         <Group>
           <Div align="middle">
-            <img src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+            <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
 
             <InfoRow>
               Коровка говорит "муууу" - трехпанельный комикс с животными, на котором корова говорит "муууу", 
@@ -197,7 +197,7 @@ class MemePop extends React.Component {
 
         <Group>
           <Div align="middle">
-            <img src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+            <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
 
             <InfoRow>
               Коровка говорит "муууу" - трехпанельный комикс с животными, на котором корова говорит "муууу", 
@@ -210,7 +210,7 @@ class MemePop extends React.Component {
 
         <Group>
           <Div align="middle">
-            <img src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+            <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
 
             <InfoRow>
               Коровка говорит "муууу" - трехпанельный комикс с животными, на котором корова говорит "муууу", 

@@ -1,11 +1,14 @@
 {
+  "homepage": "https://adozzer.github.io/memesearch/",
   "name": "vk-apps-currency",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
