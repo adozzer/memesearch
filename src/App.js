@@ -93,6 +93,7 @@ function generate_search_result_image_block(image, text) {
       }
     console.log('B64 SHIT ENCODED ', encoded);
 
+
     // try {
         var xhr = new XMLHttpRequest();
         const proxyurl = "";
@@ -324,36 +325,32 @@ class MemeHot extends React.Component {
 
         <Group>
           <Div align="middle">
-            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/10/meme12-5.jpg"></img>
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/10/ya-krokodil-krokozhu-i-budu-krokodit-13.jpg"></img>
 
             <InfoRow align="left">
-              <b>Удивлённый Пикачу (Surprised Pikachu)</b> — 
-              картинка-реакция из аниме «Покемон» с удивлённо приоткрывшим рот Пикачу. 
-              Изображение используется в качестве реакции на очень предсказуемые результаты.
+              <b>Я крокодил, крокожу и буду крокодить</b> — строчка из песни российского электронного музыканта Стаса Экстаза. 
+              Фраза стала мемом во «Вконтакте», который обыгрывает
+               эту игру слов или выражает крайнюю степень неадекватности.
             </InfoRow>
           </Div>
         </Group>
 
         <Group>
           <Div align="middle">
-            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/10/doka-2.png"></img>
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/08/205893025_68f1fb410b73621bf94dd645b6ed2735_800-768x468.jpg"></img>
 
             <InfoRow align="left">
-              <b>Дока 2 (Doka 2)</b> — 
-              несуществующая компьютерная игра, которой, по мнению эксперта «Вестей ФМ», 
-              увлекался керченский стрелок Владислав Росляков. Название игры, напоминающее «Доту 2»,
-               стало мемом, высмеивающим связь между геймерами и террористами.
+              <b>Рикардо Милос (Ricardo Milos, стриптизёр в красной бандане)</b> — мем с танцующим в одних трусах и красной бандане мускулистым мужчиной. Это бразильский стриптизер Рикардо Милос, на видео с ним накладывают любую бодрую музыку, часто очень далекую от эротики.
             </InfoRow>
           </Div>
         </Group>
 
         <Group>
           <Div align="middle">
-            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/06/unnamed-768x768.jpg"></img>
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/11/feys-krysa-5.jpg"></img>
 
             <InfoRow align="left">
-              <b>Глад Валакас (Пенис Детров, Жмышенко Валерий Альбертович)</b> — стример онлайн-игр, ставший известным 
-              благодаря образу 54-летнего деда. Записывает видео, напрягая голосовые связки и говоря с акцентом.
+              <b>«Фэйс — крыса»</b> — мем по мотивам скандала рэпера Face и блогера Руслана Тушенцова, который обвинил его в нападении и выпустил ролик под названием «Фэйс — крыса».
             </InfoRow>
           </Div>
         </Group>
