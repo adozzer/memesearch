@@ -310,34 +310,19 @@ class MemeHot extends React.Component {
       <div style={{ paddingBottom: 80 }}>
         <PanelHeader>Hot memes</PanelHeader>
 
-        {this.state.items.length ?
-        this.state.items.map(item=>
-          <Group>
-            <Div align="middle">
-              <img src={item.url}></img>
-
-              <InfoRow>
-                {item.title}
-              </InfoRow>
-            </Div>
-          </Group>
-
-        ) :
-
-        <Group>
+                <Group>
           <Div align="middle">
-            <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/10/meme12-5.jpg"></img>
 
-            <InfoRow>
-              Коровка говорит "муууу" - трехпанельный комикс с животными, на котором корова говорит "муууу", 
-              собачка говорит "гав-гав", а третий персонаж изображает что-то плохое, свойственное людям. 
-              Например, крыса показывает человека, готового подставить друга, а змея - женщину, 
-              которая ругается с мужчиной.
+            <InfoRow align="left">
+              <b>Удивлённый Пикачу (Surprised Pikachu)</b> — 
+              картинка-реакция из аниме «Покемон» с удивлённо приоткрывшим рот Пикачу. 
+              Изображение используется в качестве реакции на очень предсказуемые результаты.
             </InfoRow>
           </Div>
         </Group>
 
-      }
+      
       </div>
     );
   }
