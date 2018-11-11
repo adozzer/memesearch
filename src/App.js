@@ -95,7 +95,7 @@ function generate_search_result_image_block(image, text) {
 
     // try {
         var xhr = new XMLHttpRequest();
-        var url = "https://95.213.236.96:5000/predict";
+        var url = "https://searchmeme.ml/predict";
         xhr.open("POST", url, true);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.onreadystatechange = function () {
@@ -274,13 +274,42 @@ class MemeExplorer extends React.Component {
           <Header level="2">Similar</Header>
           <HorizontalScroll>
             <div style={{ display: 'flex' }}>
-              {
-                this.state.items.map(item=>
+                <div style={{ padding: '8px', align: 'middle' }}>
+                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg"></img>
+                </div>  
                 <div>
-                  <img width="500" src={item.url}></img>
-                </div>
-                ) 
-              }             
+                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://memepedia.ru/wp-content/uploads/2018/10/5-52.jpg"></img>
+                </div>  
+                <div>
+                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://memepedia.ru/wp-content/uploads/2018/10/meme8-13.jpg"></img>
+                </div>  
+                <div>
+                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://lh6.googleusercontent.com/S9CJMzspU3ur33HcQkTDcBJMIVwRdLrwTGzqzavt5uhzniql2NM7PRmtcAupZt1p-NOJD5wmzKgziN3hJLPa=w1215-h710"></img>
+                </div>  
+                <div>
+                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://lh5.googleusercontent.com/hlpdVFQv5i8x-W7lMZ_rdJ4BLZSp6n1O9hqk8UIh0SFh-7vcO17Lot3mHfTUcOkkETNK1cajuAxAXKERuuWZ=w1215-h710"></img>
+                </div> 
+                 <div>
+                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://lh5.googleusercontent.com/JmBD_06w5n2KWzlZyl_uC-eDSXmD1Uw4bd9RH5OZtPp_YjUTl4XZZNeOJJSpluTKigCNvxVcSt1x8ftBnZrm=w1215-h710-rw"></img>
+                </div>   
+                <div>
+                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg"></img>
+                </div>  
+                <div>
+                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://memepedia.ru/wp-content/uploads/2018/10/5-52.jpg"></img>
+                </div>  
+                <div>
+                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://memepedia.ru/wp-content/uploads/2018/10/meme8-13.jpg"></img>
+                </div>  
+                <div>
+                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://lh6.googleusercontent.com/S9CJMzspU3ur33HcQkTDcBJMIVwRdLrwTGzqzavt5uhzniql2NM7PRmtcAupZt1p-NOJD5wmzKgziN3hJLPa=w1215-h710"></img>
+                </div>  
+                <div>
+                  <img style={{ padding: '8px' }} width="500" src="https://lh5.googleusercontent.com/hlpdVFQv5i8x-W7lMZ_rdJ4BLZSp6n1O9hqk8UIh0SFh-7vcO17Lot3mHfTUcOkkETNK1cajuAxAXKERuuWZ=w1215-h710"></img>
+                </div> 
+                 <div>
+                  <img style={{ padding: '8px' }} width="500" src="https://lh5.googleusercontent.com/JmBD_06w5n2KWzlZyl_uC-eDSXmD1Uw4bd9RH5OZtPp_YjUTl4XZZNeOJJSpluTKigCNvxVcSt1x8ftBnZrm=w1215-h710-rw"></img>
+                </div>      
             </div>
           </HorizontalScroll>
         </Group>
