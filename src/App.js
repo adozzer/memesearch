@@ -262,7 +262,7 @@ class MemeExplorer extends React.Component {
             Удивлённый Пикачу
           </Header>
           <Div align="middle">
-            <img width="500" src="https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg"></img>
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg"></img>
 
             <InfoRow>
               https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg
@@ -275,23 +275,23 @@ class MemeExplorer extends React.Component {
           <Header level="2">Similar</Header>
           <HorizontalScroll>
             <div style={{ display: 'flex' }}>
-                <div style={{ padding: '8px', align: 'middle' }}>
-                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg"></img>
+                <div>
+                  <img style={{ padding: '8px', align: 'middle' }} height="100" src="https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg"></img>
                 </div>  
                 <div>
-                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://memepedia.ru/wp-content/uploads/2018/10/5-52.jpg"></img>
+                  <img style={{ padding: '8px', align: 'middle' }} height="100" src="https://memepedia.ru/wp-content/uploads/2018/10/5-52.jpg"></img>
                 </div>  
                 <div>
-                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://memepedia.ru/wp-content/uploads/2018/10/meme8-13.jpg"></img>
+                  <img style={{ padding: '8px', align: 'middle' }}  height="100" src="https://memepedia.ru/wp-content/uploads/2018/10/meme8-13.jpg"></img>
                 </div>  
                 <div>
-                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://i.imgur.com/mqlrxPx.jpg"></img>
+                  <img style={{ padding: '8px', align: 'middle' }}  height="100" src="https://i.imgur.com/mqlrxPx.jpg"></img>
                 </div>  
                 <div>
-                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://i.imgur.com/WWWNbP6.jpg"></img>
+                  <img style={{ padding: '8px', align: 'middle' }}  height="100" src="https://i.imgur.com/WWWNbP6.jpg"></img>
                 </div> 
                  <div>
-                  <img style={{ padding: '8px', align: 'middle' }} width="500" src="https://i.imgur.com/tevTDqk.jpg"></img>
+                  <img style={{ padding: '8px', align: 'middle' }}  height="100" src="https://i.imgur.com/tevTDqk.jpg"></img>
                 </div>   
                    
             </div>
