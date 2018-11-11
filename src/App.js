@@ -379,39 +379,47 @@ class MemePop extends React.Component {
 
         <Group>
           <Div align="middle">
-            <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/10/meme12-5.jpg"></img>
 
-            <InfoRow>
-              Коровка говорит "муууу" - трехпанельный комикс с животными, на котором корова говорит "муууу", 
-              собачка говорит "гав-гав", а третий персонаж изображает что-то плохое, свойственное людям. 
-              Например, крыса показывает человека, готового подставить друга, а змея - женщину, 
-              которая ругается с мужчиной.
+            <InfoRow align="left">
+              <b>Удивлённый Пикачу (Surprised Pikachu)</b> — 
+              картинка-реакция из аниме «Покемон» с удивлённо приоткрывшим рот Пикачу. 
+              Изображение используется в качестве реакции на очень предсказуемые результаты.
             </InfoRow>
           </Div>
         </Group>
 
         <Group>
           <Div align="middle">
-            <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/10/doka-2.png"></img>
 
-            <InfoRow>
-              Коровка говорит "муууу" - трехпанельный комикс с животными, на котором корова говорит "муууу", 
-              собачка говорит "гав-гав", а третий персонаж изображает что-то плохое, свойственное людям. 
-              Например, крыса показывает человека, готового подставить друга, а змея - женщину, 
-              которая ругается с мужчиной.
+            <InfoRow align="left">
+              <b>Дока 2 (Doka 2)</b> — 
+              несуществующая компьютерная игра, которой, по мнению эксперта «Вестей ФМ», 
+              увлекался керченский стрелок Владислав Росляков. Название игры, напоминающее «Доту 2»,
+               стало мемом, высмеивающим связь между геймерами и террористами.
             </InfoRow>
           </Div>
         </Group>
 
         <Group>
           <Div align="middle">
-            <img width="500" src="https://www.digitalcitizen.life/sites/default/files/styles/img_u_large/public/featured/2016-08/photo_gallery.jpg"></img>
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/06/unnamed-768x768.jpg"></img>
 
-            <InfoRow>
-              Коровка говорит "муууу" - трехпанельный комикс с животными, на котором корова говорит "муууу", 
-              собачка говорит "гав-гав", а третий персонаж изображает что-то плохое, свойственное людям. 
-              Например, крыса показывает человека, готового подставить друга, а змея - женщину, 
-              которая ругается с мужчиной.
+            <InfoRow align="left">
+              <b>Глад Валакас (Пенис Детров, Жмышенко Валерий Альбертович)</b> — стример онлайн-игр, ставший известным 
+              благодаря образу 54-летнего деда. Записывает видео, напрягая голосовые связки и говоря с акцентом.
+            </InfoRow>
+          </Div>
+        </Group>
+
+        <Group>
+          <Div align="middle">
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/09/chi-da-1.jpg"></img>
+
+            <InfoRow align="left">
+              <b>Чи да?</b> — мемная фраза, которую можно встретить в 
+              комментариях к разным постам во «ВКонтакте». Происходит от серии пранков видеоблогера Edward Bil.
             </InfoRow>
           </Div>
         </Group>
