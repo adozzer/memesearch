@@ -244,11 +244,11 @@ class MemeExplorer extends React.Component {
     };
   } 
 
-  componentDidMount(){
-    fetch(`http://jsonplaceholder.typicode.com/photos`)
-    .then(result=>result.json())
-    .then(items=>this.setState({items}))
-  }
+  // componentDidMount(){
+  //   fetch(`http://jsonplaceholder.typicode.com/photos`)
+  //   .then(result=>result.json())
+  //   .then(items=>this.setState({items}))
+  // }
 
   render() {
     return (
@@ -257,14 +257,13 @@ class MemeExplorer extends React.Component {
 
         <Group>
           <Header level="2">
-            {this.state.items.length ? this.state.items[0].title : <p>Loading...</p>}
+            Puca
           </Header>
           <Div align="middle">
-            <img width="500" src={this.state.items.length ? this.state.items[0].url : ""}></img>
+            <img width="500" src="https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg"></img>
 
             <InfoRow>
-              {this.state.items.length ?
-              this.state.items[0].title : <p>Loading...</p>}
+              https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg
             </InfoRow>
           </Div>
         </Group>
