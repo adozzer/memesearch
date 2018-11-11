@@ -278,22 +278,22 @@ class MemeExplorer extends React.Component {
           <HorizontalScroll>
             <div style={{ display: 'flex' }}>
                 <div>
-                  <img style={{ padding: '8px', align: 'middle' }} height="100" src="https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg"></img>
+                  <img style={{ padding: '8px', align: 'middle' }} height="200" src="https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg"></img>
                 </div>  
                 <div>
-                  <img style={{ padding: '8px', align: 'middle' }} height="100" src="https://memepedia.ru/wp-content/uploads/2018/10/5-52.jpg"></img>
+                  <img style={{ padding: '8px', align: 'middle' }} height="200" src="https://memepedia.ru/wp-content/uploads/2018/10/5-52.jpg"></img>
                 </div>  
                 <div>
-                  <img style={{ padding: '8px', align: 'middle' }}  height="100" src="https://memepedia.ru/wp-content/uploads/2018/10/meme8-13.jpg"></img>
+                  <img style={{ padding: '8px', align: 'middle' }}  height="200" src="https://memepedia.ru/wp-content/uploads/2018/10/meme8-13.jpg"></img>
                 </div>  
                 <div>
-                  <img style={{ padding: '8px', align: 'middle' }}  height="100" src="https://i.imgur.com/mqlrxPx.jpg"></img>
+                  <img style={{ padding: '8px', align: 'middle' }}  height="200" src="https://i.imgur.com/mqlrxPx.jpg"></img>
                 </div>  
                 <div>
-                  <img style={{ padding: '8px', align: 'middle' }}  height="100" src="https://i.imgur.com/WWWNbP6.jpg"></img>
+                  <img style={{ padding: '8px', align: 'middle' }}  height="200" src="https://i.imgur.com/WWWNbP6.jpg"></img>
                 </div> 
                  <div>
-                  <img style={{ padding: '8px', align: 'middle' }}  height="100" src="https://i.imgur.com/tevTDqk.jpg"></img>
+                  <img style={{ padding: '8px', align: 'middle' }}  height="200" src="https://i.imgur.com/tevTDqk.jpg"></img>
                 </div>   
                    
             </div>
