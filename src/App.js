@@ -95,7 +95,7 @@ function generate_search_result_image_block(image, text) {
 
     // try {
         var xhr = new XMLHttpRequest();
-        var url = "http://95.213.236.96/predict";
+        var url = "https://95.213.236.96:5000/predict";
         xhr.open("POST", url, true);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.onreadystatechange = function () {
@@ -310,7 +310,7 @@ class MemeHot extends React.Component {
       <div style={{ paddingBottom: 80 }}>
         <PanelHeader>Hot memes</PanelHeader>
 
-                <Group>
+        <Group>
           <Div align="middle">
             <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/10/meme12-5.jpg"></img>
 
@@ -318,6 +318,41 @@ class MemeHot extends React.Component {
               <b>Удивлённый Пикачу (Surprised Pikachu)</b> — 
               картинка-реакция из аниме «Покемон» с удивлённо приоткрывшим рот Пикачу. 
               Изображение используется в качестве реакции на очень предсказуемые результаты.
+            </InfoRow>
+          </Div>
+        </Group>
+
+        <Group>
+          <Div align="middle">
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/10/doka-2.png"></img>
+
+            <InfoRow align="left">
+              <b>Дока 2 (Doka 2)</b> — 
+              несуществующая компьютерная игра, которой, по мнению эксперта «Вестей ФМ», 
+              увлекался керченский стрелок Владислав Росляков. Название игры, напоминающее «Доту 2»,
+               стало мемом, высмеивающим связь между геймерами и террористами.
+            </InfoRow>
+          </Div>
+        </Group>
+
+        <Group>
+          <Div align="middle">
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/06/unnamed-768x768.jpg"></img>
+
+            <InfoRow align="left">
+              <b>Глад Валакас (Пенис Детров, Жмышенко Валерий Альбертович)</b> — стример онлайн-игр, ставший известным 
+              благодаря образу 54-летнего деда. Записывает видео, напрягая голосовые связки и говоря с акцентом.
+            </InfoRow>
+          </Div>
+        </Group>
+
+        <Group>
+          <Div align="middle">
+            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/09/chi-da-1.jpg"></img>
+
+            <InfoRow align="left">
+              <b>Чи да?</b> — мемная фраза, которую можно встретить в 
+              комментариях к разным постам во «ВКонтакте». Происходит от серии пранков видеоблогера Edward Bil.
             </InfoRow>
           </Div>
         </Group>
