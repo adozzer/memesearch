@@ -262,10 +262,12 @@ class MemeExplorer extends React.Component {
             Удивлённый Пикачу
           </Header>
           <Div align="middle">
-            <img width="90%" src="https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg"></img>
+            <img width="70%" src="https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg" ></img>
 
-            <InfoRow>
-              https://memepedia.ru/wp-content/uploads/2018/10/4-55-768x768.jpg
+            <InfoRow align="left">
+              <b>Удивлённый Пикачу (Surprised Pikachu)</b> — 
+              картинка-реакция из аниме «Покемон» с удивлённо приоткрывшим рот Пикачу. 
+              Изображение используется в качестве реакции на очень предсказуемые результаты.
             </InfoRow>
           </Div>
         </Group>
